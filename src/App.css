@@ -1,0 +1,319 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+main{
+  height: 92vh;
+}
+/* ################### Header page ############## */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  align-items: center;
+  background-color: black;
+}
+
+.manu li a:hover {
+  color: lawngreen;
+  transition-duration: 3s;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 25px;
+  padding-left: 30px;
+  color: whitesmoke;
+  font-weight: bolder;
+  /* letter-spacing: 1px; */
+}
+
+.navbar a:hover {
+  color: hotpink;
+  transition-duration: 2s;
+}
+
+.navbar ul {
+  font-size: 20px;
+  margin: 15px 10px;
+  display: flex;
+  padding-right: 30px;
+  font-weight: bolder;
+}
+
+.navbar ul li {
+  padding: 5px;
+  list-style: none;
+}
+
+
+/* ####################### Home Page Css ####################### */
+.home-cont {
+  height: 71vh;
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.home-name {
+  margin: 113px 98px;
+  padding: 21px 11px;
+  font-family: sans-serif;
+
+}
+.home-name h1:hover{
+
+color:lightgreen;
+}
+
+.home-img {
+  float: right;
+  flex-direction: row;
+}
+
+.home-img img {
+  height: 446px;
+  width: 653px;
+}
+
+/* ################## Common Page Css ####################### */
+.common-cont {
+  padding: 2px 50px;
+}
+
+
+
+/* ################ About Page Css ########################## */
+.about-cont {
+  width: 100%;
+  background-color: rgb(65, 73, 81);
+  color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+
+
+}
+
+.about-name {
+  float: right;
+  margin-right: 30%;
+}
+.about-name h1{
+  margin-top: 10%;
+  margin-left: 54%;
+}
+.about-name h1:hover {
+  color: darkslateblue;
+}
+.about-name h2 {
+  padding: 20PX;
+  color: inherit;
+  margin-top: 30px;
+  margin-left: 60%;
+}
+.about-name h3{
+      
+       margin-left: 68%;
+
+}
+.about-name p{
+  margin-left: 71%;
+  padding: 2px;
+  word-spacing: 2px;
+}
+
+
+
+.about-img {
+  display: flex;
+  justify-content: left;
+  position: absolute;
+  margin: 70px;
+
+}
+
+.about-img img {
+  height: 200px;
+  width: 200px;
+  border:2px solid black;
+  margin: 20px;
+  border-radius: 10%;
+  
+
+}
+
+/* ################## Contact Page Css ##################### */
+.container {
+  height: 80vh;
+  width: 100vw;
+
+}
+.container h1{
+  text-align: center;
+  margin: 25px;
+  font-size: xx-large;
+  font-family:cursive;
+  color: #ccb;
+  text-shadow: 5px 10px 5px palegreen;
+
+}
+.about-form{
+  background-color: aliceblue;
+  padding: 10px;
+  text-align: center;
+  border: 4px solid #ccc;
+  margin: 20px;
+  height: 400px;
+  width: 500px;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 20px;
+
+}
+
+.fdesign {
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-top: 20px;
+
+
+}
+
+.fdesign input {
+  width: 50%;
+  padding: 10px 10px;
+  margin: 10px;
+  border: 2px solid  #ccc;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+}
+
+.textarea {
+  height: 90px;
+  width: 50%;
+  margin: 20px;
+  margin-left: 20px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 11px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+.but {
+  background-color: antiquewhite;
+  color: blue;
+  border: 2px solid palevioletred;
+  height: 30px;
+  width: 80px;
+  font-size: 18px;
+  border-radius: 8px;
+  margin: -7px 20px;
+  font-weight: bolder;
+}
+.but:hover{
+    background-color: #330052;
+    color:palegreen ;
+    transition-duration: 3s;
+
+}
+
+/* ######################## Cards Css ######################### */
+
+.pro-name{
+  display: flex;
+  height: 80vh;
+  margin: 25px;
+  margin-top: 50px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.cards {
+  height: 350px;
+  width: 300px;
+  border: 3px solid #b3ccff;
+  margin-top: 30px;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: gainsboro;
+ 
+}
+.cards-img{
+  position: relative;
+  height: 220px;
+  width: 290px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.cards-img img{
+  position: absolute;
+  height: 175px;
+  height: 220;
+  width: 280px;
+  border: 2px solid #b3ccff;
+  border-radius: 10px;
+  background-size:cover;
+}
+.cards p{
+  padding: 5px;
+  padding-left: 5px;
+  margin: 5px;
+}
+.cards h3 {
+     margin-left: 46px;
+    }
+.cards  button{
+  height:40px;
+  width: 105px;
+  font-size: 17px;
+  font-weight: bolder;
+  border-radius: 10px;
+  background-color: black;
+  color: #f8f8f8;
+transition-duration: 3s;
+text-align: center;
+margin: 25px 84px;
+}
+
+.cards a{
+  text-decoration: none;
+  color: aliceblue;
+}
+.cards  button a:hover{
+  color: chartreuse;
+  
+}
+
+
+
+
+/* ######################## Footer Page Css ####################### */
+.footer {
+  height: 6vh;
+  background-color: black;
+  color: white;
+  text-align: center;
+  bottom: auto;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 15px;
+  word-spacing: 2px;
+}
+/* ########################### media quary css ############################ */
+
+
+
+@media only screen and (max-width:780px){
+body{
+  background-color: #eaeff9;
+}
+
+}
